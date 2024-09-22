@@ -1,13 +1,18 @@
 import gym
 import numpy as np
 import torch
-import graphirl.common as common
 from torchkit import checkpoint
 import pickle
 import os
 import collections
 from sklearn.metrics import pairwise_distances
 import cv2
+import sys
+
+# Add the parent directory of src to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+import graphirl.common as common
 
 IMG_HEIGHT, IMG_WIDTH = 448, 448
 
