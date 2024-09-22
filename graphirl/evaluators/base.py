@@ -22,7 +22,7 @@ import dataclasses
 import numpy as np
 from torchkit import Logger
 import sys
-sys.path.append('~/google-research/xirl')
+sys.path.append('/home/user/google-research/xirl')
 from xirl.models import SelfSupervisedOutput
 
 
