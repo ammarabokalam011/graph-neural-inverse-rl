@@ -22,7 +22,7 @@ import dataclasses
 import numpy as np
 from torchkit import Logger
 import sys
-sys.path.append("/home/user/graph-neural-inverse-rl/")
+sys.path.append("/home/user/graph-neural-inverse-rl/xirl")
 from xirl.models import SelfSupervisedOutput
 
 
