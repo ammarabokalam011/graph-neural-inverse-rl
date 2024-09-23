@@ -25,6 +25,9 @@ import torch
 from torch.utils.data import Dataset
 import cv2
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from xirl import frame_samplers
 from xirl import transforms
 from xirl.file_utils import get_subdirs, load_bboxes_pusher_dists_context
