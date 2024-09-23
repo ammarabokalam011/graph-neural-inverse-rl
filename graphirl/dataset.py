@@ -32,7 +32,7 @@ from xirl import frame_samplers
 from xirl import transforms
 from xirl.file_utils import get_subdirs
 from graphirl.file_utils import load_image, load_bboxes, load_bboxes_pusher, load_bboxes_pusher, load_bboxes_ordered, load_image_bbox, load_bboxes_pusher_gp, load_bboxes_pusher_dists_gp, load_bboxes_pusher_dists
-from xirl.tensorizers import ToTensor_bbox, ToTensor
+from graphirl.tensorizers import ToTensor_bbox, ToTensor
 from xirl.types import SequenceType
 from xirl.data_aug import *
 from graphirl.file_utils import load_bboxes_pusher_dists_context
