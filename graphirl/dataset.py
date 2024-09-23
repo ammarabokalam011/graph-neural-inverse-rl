@@ -27,7 +27,7 @@ import cv2
 
 import sys
 import os
-sys.path.append("/home/user/graph-neural-inverse-rl/xirl")
+sys.path.append("/home/user/graph-neural-inverse-rl/")
 from xirl import frame_samplers
 from xirl import transforms
 from xirl.file_utils import get_subdirs, load_bboxes_pusher_dists_context

@@ -10,7 +10,7 @@ import cv2
 import sys
 
 # Add the parent directory of src to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append("/home/user/graph-neural-inverse-rl/")
 
 import graphirl.common as common
 
