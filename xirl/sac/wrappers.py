@@ -25,7 +25,7 @@ import gym
 import imageio
 import numpy as np
 import torch
-from xirl.models import SelfSupervisedModel
+from xirl.xirl.models import SelfSupervisedModel
 
 import cv2
 
