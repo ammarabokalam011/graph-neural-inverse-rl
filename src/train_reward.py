@@ -4,7 +4,7 @@ learn a reward function
 from absl import app
 from absl import flags
 from absl import logging as logger
-from base_configs import validate_config
+from xirl.base_configs import validate_config
 from configs.constants import *
 from ml_collections.config_flags import DEFINE_config_file
 from torchkit.torchkit.utils.seed import seed_rngs, set_cudnn
