@@ -26,8 +26,8 @@ from gym.wrappers import RescaleAction
 import matplotlib.pyplot as plt
 from ml_collections import config_dict
 import numpy as np
-from sac import replay_buffer
-from sac import wrappers
+from xirl.sac import replay_buffer
+from xirl.sac import wrappers
 import torch
 from torchkit import CheckpointManager
 from torchkit.experiment import git_revision_hash
