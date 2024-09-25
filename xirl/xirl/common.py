@@ -19,8 +19,8 @@ from typing import Dict
 from ml_collections import ConfigDict
 
 import torch
-from xirl import factory
-from xirl.models import SelfSupervisedModel
+from xirl.xirl import factory
+from xirl.xirl.models import SelfSupervisedModel
 
 DataLoadersDict = Dict[str, torch.utils.data.DataLoader]
 ModelType = SelfSupervisedModel
