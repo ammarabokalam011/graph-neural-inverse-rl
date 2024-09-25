@@ -57,6 +57,7 @@ def evaluate(env, agent, video, state_recorder, num_episodes, L, step, test_env=
         if args.wandb and i == 0:
             # utils.save_image(torch.tensor(video.frames[0].transpose(2, 0, 1)), 'test.png')
             frames = np.array([frame.transpose(2, 0, 1) for frame in video.frames])
+            print("Frames shape:", frames.shape)
             wandb.log({'eval/eval_video%s' % _test_env: wandb.Video(frames, caption='eval_video%s' % _test_env, fps=video.fps, format="mp4")},
                       step=step + 1)
 
