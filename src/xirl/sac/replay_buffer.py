@@ -20,11 +20,10 @@ Adapted from https://github.com/ikostrikov/jaxrl.
 
 import abc
 import collections
-from typing import Optional, Tuple
 
 import numpy as np
 import torch
-from xirl.xirl.models import SelfSupervisedModel
+from src.xirl.xirl.models import SelfSupervisedModel
 
 import cv2
 

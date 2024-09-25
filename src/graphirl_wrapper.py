@@ -4,7 +4,6 @@ import torch
 from torchkit import checkpoint
 import pickle
 import os
-import collections
 from sklearn.metrics import pairwise_distances
 import cv2
 import sys
@@ -12,7 +11,7 @@ import sys
 # Add the parent directory of src to sys.path
 sys.path.append("/home/user/graph-neural-inverse-rl/")
 
-import graphirl.common as common
+import src.graphirl.common as common
 
 IMG_HEIGHT, IMG_WIDTH = 448, 448
 

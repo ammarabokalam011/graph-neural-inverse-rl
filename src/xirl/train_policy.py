@@ -17,13 +17,11 @@
 
 import collections
 import os.path as osp
-from typing import Dict
 
 from absl import app
 from absl import flags
 from absl import logging
 from base_configs import validate_config
-import gym
 from ml_collections import config_dict
 from ml_collections import config_flags
 import numpy as np

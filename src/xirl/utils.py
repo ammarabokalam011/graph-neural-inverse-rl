@@ -17,8 +17,6 @@
 
 import os
 import pickle
-import typing
-from typing import Any, Dict, Optional
 
 from absl import logging
 import gym
@@ -26,12 +24,11 @@ from gym.wrappers import RescaleAction
 import matplotlib.pyplot as plt
 from ml_collections import config_dict
 import numpy as np
-from xirl.sac import replay_buffer
-from xirl.sac import wrappers
+from src.xirl.xirl import replay_buffer
+from src.xirl.sac import wrappers
 import torch
 from torchkit import CheckpointManager
-from torchkit.experiment import git_revision_hash
-from xirl.xirl import common
+from src.xirl.xirl import common
 import xmagical
 import yaml
 

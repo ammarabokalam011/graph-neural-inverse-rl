@@ -16,11 +16,10 @@
 """Functionality common to pretraining and evaluation."""
 
 from typing import Dict
-from ml_collections import ConfigDict
 
 import torch
-from xirl.xirl import factory
-from xirl.xirl.models import SelfSupervisedModel
+from src.xirl.xirl import factory
+from src.xirl.xirl.models import SelfSupervisedModel
 
 DataLoadersDict = Dict[str, torch.utils.data.DataLoader]
 ModelType = SelfSupervisedModel

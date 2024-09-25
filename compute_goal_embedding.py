@@ -9,8 +9,7 @@ from absl import flags
 import numpy as np
 import torch
 from torchkit import checkpoint
-from graphirl import common
-import tqdm
+from src.graphirl import common
 
 FLAGS = flags.FLAGS
 
