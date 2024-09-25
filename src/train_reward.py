@@ -8,7 +8,6 @@ from ml_collections.config_flags import DEFINE_config_file
 from torchkit.utils.seed import seed_rngs, set_cudnn
 from torchkit.checkpoint import CheckpointManager
 from torchkit.utils.timer import Stopwatch
-from configs.constants import *
 from graphirl import common
 import logging
 import os
@@ -22,7 +21,9 @@ import json
 
 sys.path.append("/home/user/graph-neural-inverse-rl/xirl")
 from xirl.base_configs import validate_config
+from xirl.configs.constants import *
 from xirl.utils import setup_experiment, load_config_from_dir
+
 FLAGS = flags.FLAGS
 
 flags.DEFINE_enum("embodiment", None, EMBODIMENTS,
