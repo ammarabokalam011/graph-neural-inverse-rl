@@ -24,7 +24,7 @@ from typing import Optional, Tuple
 
 import numpy as np
 import torch
-from xirl.models import SelfSupervisedModel
+from xirl.xirl.models import SelfSupervisedModel
 
 import cv2
 
