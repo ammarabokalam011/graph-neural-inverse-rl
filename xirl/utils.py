@@ -31,7 +31,7 @@ from xirl.sac import wrappers
 import torch
 from torchkit import CheckpointManager
 from torchkit.experiment import git_revision_hash
-from xirl import common
+from xirl.xirl import common
 import xmagical
 import yaml
 
