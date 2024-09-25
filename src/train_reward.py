@@ -5,9 +5,9 @@ from absl import app
 from absl import flags
 from absl import logging as logger
 from ml_collections.config_flags import DEFINE_config_file
-from torchkit.torchkit.utils.seed import seed_rngs, set_cudnn
-from torchkit.torchkit.checkpoint import CheckpointManager
-from torchkit.torchkit.utils.timer import Stopwatch
+from torchkit.utils.seed import seed_rngs, set_cudnn
+from torchkit.checkpoint import CheckpointManager
+from torchkit.utils.timer import Stopwatch
 from utils import setup_experiment, load_config_from_dir
 from graphirl import common
 import logging
