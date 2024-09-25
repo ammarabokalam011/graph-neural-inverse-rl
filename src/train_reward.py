@@ -18,10 +18,10 @@ import subprocess
 import yaml
 import json
 
-sys.path.append("/home/user/graph-neural-inverse-rl/xirl")
-from base_configs import validate_config
+sys.path.append("/home/user/graph-neural-inverse-rl")
+from xirl.base_configs import validate_config
 from xirl.configs.constants import *
-from utils import setup_experiment, load_config_from_dir
+from xirl.utils import setup_experiment, load_config_from_dir
 
 sys.path.append("/home/user/graph-neural-inverse-rl/graphirl")
 from graphirl import common
