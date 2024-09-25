@@ -24,11 +24,11 @@ from gym.wrappers import RescaleAction
 import matplotlib.pyplot as plt
 from ml_collections import config_dict
 import numpy as np
-from src.xirl.xirl import replay_buffer
-from src.xirl.sac import wrappers
+from xirl.xirl import replay_buffer
+from xirl.sac import wrappers
 import torch
 from torchkit import CheckpointManager
-from src.xirl.xirl import common
+from xirl.xirl import common
 import xmagical
 import yaml
 

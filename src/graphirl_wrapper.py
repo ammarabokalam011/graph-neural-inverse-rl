@@ -8,10 +8,7 @@ from sklearn.metrics import pairwise_distances
 import cv2
 import sys
 
-# Add the parent directory of src to sys.path
-sys.path.append("/home/user/graph-neural-inverse-rl/")
-
-import src.graphirl.common as common
+import graphirl.common as common
 
 IMG_HEIGHT, IMG_WIDTH = 448, 448
 

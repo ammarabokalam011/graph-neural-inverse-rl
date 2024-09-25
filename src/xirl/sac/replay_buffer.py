@@ -23,7 +23,7 @@ import collections
 
 import numpy as np
 import torch
-from src.xirl.xirl.models import SelfSupervisedModel
+from xirl.xirl.models import SelfSupervisedModel
 
 import cv2
 

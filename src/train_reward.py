@@ -18,13 +18,11 @@ import subprocess
 import yaml
 import json
 
-sys.path.append("/home/user/graph-neural-inverse-rl")
-from src.xirl.base_configs import validate_config
-from src.xirl.configs.constants import *
-from src.xirl.utils import setup_experiment, load_config_from_dir
+from xirl.base_configs import validate_config
+from xirl.configs.constants import *
+from xirl.utils import setup_experiment, load_config_from_dir
 
-sys.path.append("/home/user/graph-neural-inverse-rl/graphirl")
-from src.graphirl import common
+from graphirl import common
 
 FLAGS = flags.FLAGS
 

@@ -18,8 +18,8 @@
 from typing import Dict
 
 import torch
-from src.xirl.xirl import factory
-from src.xirl.xirl.models import SelfSupervisedModel
+from xirl.xirl import factory
+from xirl.xirl.models import SelfSupervisedModel
 
 DataLoadersDict = Dict[str, torch.utils.data.DataLoader]
 ModelType = SelfSupervisedModel
