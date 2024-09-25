@@ -4,8 +4,6 @@ learn a reward function
 from absl import app
 from absl import flags
 from absl import logging as logger
-from xirl.base_configs import validate_config
-from configs.constants import *
 from ml_collections.config_flags import DEFINE_config_file
 from torchkit.torchkit.utils.seed import seed_rngs, set_cudnn
 from torchkit.torchkit.checkpoint import CheckpointManager
@@ -14,12 +12,17 @@ from utils import setup_experiment, load_config_from_dir
 from graphirl import common
 import logging
 import os
+import sys
 import os.path as osp
 import torch
 import wandb
 import subprocess
 import yaml
 import json
+
+sys.path.append("/home/user/graph-neural-inverse-rl/xirl")
+from xirl.base_configs import validate_config
+from configs.constants import *
 
 FLAGS = flags.FLAGS
 
