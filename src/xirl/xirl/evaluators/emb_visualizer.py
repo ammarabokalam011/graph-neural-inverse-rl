@@ -22,7 +22,7 @@ from .base import EvaluatorOutput
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.decomposition import PCA
-from xirl.models import SelfSupervisedOutput
+from xirl.xirl.models import SelfSupervisedOutput
 
 
 class EmbeddingVisualizer(Evaluator):
