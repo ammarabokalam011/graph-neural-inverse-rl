@@ -20,15 +20,15 @@ import os.path as osp
 
 import albumentations as alb
 import torch
-from xirl import evaluators
-from xirl import frame_samplers
-from xirl import models
-from xirl import trainers
-from xirl import transforms
-from xirl import video_samplers
-from xirl.dataset import VideoDataset
-from xirl.file_utils import get_subdirs
-from xirl.types import SequenceType
+from xirl.xirl import evaluators
+from xirl.xirl import frame_samplers
+from xirl.xirl import models
+from xirl.xirl import trainers
+from xirl.xirl import transforms
+from xirl.xirl import video_samplers
+from xirl.xirl.dataset import VideoDataset
+from xirl.xirl.file_utils import get_subdirs
+from xirl.xirl.types import SequenceType
 
 # Supported image transformations with default args.
 TRANSFORMS = {
