@@ -28,7 +28,7 @@ EMBODIMENTS = frozenset([
 
 # The datasets we used to set
 DATASETS = frozenset([
-    "pegbox_bboxes"
+    "pegbox_bboxes",
     "push_images",
     "push_bboxes",
     "reach_images",
