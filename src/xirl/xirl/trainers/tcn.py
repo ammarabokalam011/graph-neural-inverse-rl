@@ -20,7 +20,7 @@ from typing import Dict, List, Union
 import numpy as np
 import torch
 import torch.nn.functional as F
-from xirl.trainers.base import Trainer
+from xirl.xirl.trainers.base import Trainer
 
 BatchType = Dict[str, Union[torch.Tensor, List[str]]]
 

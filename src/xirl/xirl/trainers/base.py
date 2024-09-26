@@ -22,7 +22,7 @@ from ml_collections.config_dict.config_dict import ConfigDict
 import torch
 import torch.nn as nn
 
-from xirl.models import SelfSupervisedOutput
+from xirl.xirl.models import SelfSupervisedOutput
 
 BatchType = Dict[str, Union[torch.Tensor, List[str]]]
 

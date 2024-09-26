@@ -18,8 +18,8 @@
 from typing import Dict, List, Union
 
 import torch
-from xirl.losses import compute_tcc_loss
-from xirl.trainers.base import Trainer
+from xirl.xirl.losses import compute_tcc_loss
+from xirl.xirl.trainers.base import Trainer
 
 BatchType = Dict[str, Union[torch.Tensor, List[str]]]
 
