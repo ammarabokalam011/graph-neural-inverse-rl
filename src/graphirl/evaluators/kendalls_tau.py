@@ -22,7 +22,7 @@ from .base import EvaluatorOutput
 import numpy as np
 from scipy.spatial.distance import cdist
 from scipy.stats import kendalltau
-from xirl.models import SelfSupervisedOutput
+from xirl.xirl.models import SelfSupervisedOutput
 
 
 def softmax(dists, temp = 1.0):

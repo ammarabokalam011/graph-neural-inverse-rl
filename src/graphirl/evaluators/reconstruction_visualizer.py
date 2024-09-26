@@ -23,7 +23,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from torchvision.utils import make_grid
-from xirl.models import SelfSupervisedReconOutput
+from xirl.xirl.models import SelfSupervisedReconOutput
 
 
 class ReconstructionVisualizer(Evaluator):

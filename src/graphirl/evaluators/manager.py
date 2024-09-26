@@ -21,7 +21,7 @@ from .base import Evaluator
 from .base import EvaluatorOutput
 import torch
 import torch.nn as nn
-from xirl.models import SelfSupervisedOutput
+from xirl.xirl.models import SelfSupervisedOutput
 
 
 class EvalManager:

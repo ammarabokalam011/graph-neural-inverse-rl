@@ -22,7 +22,7 @@ import dataclasses
 import numpy as np
 from torchkit import Logger
 import sys
-from xirl.models import SelfSupervisedOutput
+from xirl.xirl.models import SelfSupervisedOutput
 
 
 @dataclasses.dataclass

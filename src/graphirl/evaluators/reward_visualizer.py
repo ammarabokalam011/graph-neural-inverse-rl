@@ -22,7 +22,7 @@ from .base import EvaluatorOutput
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.spatial.distance import cdist
-from xirl.models import SelfSupervisedOutput
+from xirl.xirl.models import SelfSupervisedOutput
 
 
 class RewardVisualizer(Evaluator):
