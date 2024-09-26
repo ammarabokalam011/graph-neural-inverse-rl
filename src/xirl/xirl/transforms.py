@@ -21,7 +21,7 @@ import warnings
 import albumentations as alb
 import numpy as np
 import torch
-from xirl.types import SequenceType
+from xirl.xirl.types import SequenceType
 
 
 @enum.unique

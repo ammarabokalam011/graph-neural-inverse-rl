@@ -21,7 +21,7 @@ from absl import logging
 
 import numpy as np
 
-from xirl.file_utils import get_files
+from xirl.xirl.file_utils import get_files
 # pylint: disable=logging-fstring-interpolation
 
 

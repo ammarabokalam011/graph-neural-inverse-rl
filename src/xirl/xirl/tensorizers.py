@@ -22,7 +22,7 @@ import numpy as np
 import torch
 import torchvision.transforms.functional as TF
 
-from xirl.types import SequenceType
+from xirl.xirl.types import SequenceType
 
 DataArrayPacket = Dict[SequenceType, Union[np.ndarray, str, int]]
 DataTensorPacket = Dict[SequenceType, Union[torch.Tensor, str]]
