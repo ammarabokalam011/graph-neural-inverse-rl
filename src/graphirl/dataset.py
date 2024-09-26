@@ -25,11 +25,11 @@ import cv2
 
 import sys
 
-from xirl import frame_samplers
-from xirl.file_utils import get_subdirs
+from xirl.xirl import frame_samplers
+from graphirl.file_utils import get_subdirs
 from graphirl.file_utils import load_image, load_bboxes, load_bboxes_pusher
 from graphirl.tensorizers import ToTensor_bbox, ToTensor
-from xirl.types import SequenceType
+from graphirl.types import SequenceType
 from graphirl.data_aug import *
 from graphirl.file_utils import load_bboxes_pusher_dists_context
 DataArrayPacket = Dict[SequenceType, Union[np.ndarray, str, int]]
