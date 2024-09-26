@@ -22,7 +22,7 @@ from xirl.base_configs import validate_config
 from xirl.configs.constants import *
 from xirl.utils import setup_experiment, load_config_from_dir
 
-from graphirl import common
+import graphirl.common
 
 FLAGS = flags.FLAGS
 
