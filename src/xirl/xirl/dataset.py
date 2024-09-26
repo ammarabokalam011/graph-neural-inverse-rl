@@ -26,10 +26,10 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 from torchkit.utils.multithreading import threaded_func
-from xirl.file_utils import get_subdirs
-from xirl.file_utils import load_image
-from xirl.tensorizers import ToTensor
-from xirl.types import SequenceType
+from xirl.xirl.file_utils import get_subdirs
+from xirl.xirl.file_utils import load_image
+from xirl.xirl.tensorizers import ToTensor
+from xirl.xirl.types import SequenceType
 
 # pylint: disable=logging-fstring-interpolation
 
