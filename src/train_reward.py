@@ -18,7 +18,7 @@ import subprocess
 import yaml
 import json
 
-from src.xirl.pretrain_xmagical_same_embodiment import ALGO_TO_CONFIG
+from xirl.pretrain_xmagical_same_embodiment import ALGO_TO_CONFIG
 from xirl.base_configs import validate_config
 from xirl.configs.constants import *
 from xirl.utils import setup_experiment, load_config_from_dir
