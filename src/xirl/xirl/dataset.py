@@ -25,7 +25,7 @@ from absl import logging
 import numpy as np
 import torch
 from torch.utils.data import Dataset
-from torchkit.utils.py_utils import threaded_func
+from torchkit.utils.multithreading import threaded_func
 from xirl.file_utils import get_subdirs
 from xirl.file_utils import load_image
 from xirl.tensorizers import ToTensor
