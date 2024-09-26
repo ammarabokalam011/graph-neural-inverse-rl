@@ -24,6 +24,8 @@ from xirl.utils import setup_experiment, load_config_from_dir
 
 import graphirl.common
 
+
+
 FLAGS = flags.FLAGS
 
 flags.DEFINE_enum("embodiment", None, EMBODIMENTS,

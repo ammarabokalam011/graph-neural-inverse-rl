@@ -18,13 +18,24 @@
 from typing import Dict
 from ml_collections import FrozenConfigDict
 
-# The embodiments we used in the x-MAGICAL experiments.
+# The embodimentsv we used in the x-MAGICAL experiments.
 EMBODIMENTS = frozenset([
     "shortstick",
     "mediumstick",
     "longstick",
     "gripper",
 ])
+
+# The datasets we used to set
+DATASETS = frozenset([
+    "pegbox_bboxes"
+    "push_images",
+    "push_bboxes",
+    "reach_images",
+    "pegbox_images",
+    "reach_bboxes",
+])
+
 
 # All baseline pretraining strategies we ran for the CoRL experiments.
 ALGORITHMS = frozenset([
