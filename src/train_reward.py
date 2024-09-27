@@ -27,11 +27,11 @@ import graphirl.common
 
 # Mapping from pretraining algorithm to config file.
 ALGO_TO_CONFIG = {
-    "xirl": "xirl/configs/xmagical/pretraining/tcc.py",
-    "lifs": "xirl/configs/xmagical/pretraining/lifs.py",
-    "tcn": "xirl/configs/xmagical/pretraining/tcn.py",
-    "goal_classifier": "xirl/configs/xmagical/pretraining/classifier.py",
-    "raw_imagenet": "xirl/configs/xmagical/pretraining/imagenet.py",
+    "xirl": "~/graph-neural-inverse-rl/src/xirl/configs/xmagical/pretraining/tcc.py",
+    "lifs": "~/graph-neural-inverse-rl/src/xirl/configs/xmagical/pretraining/lifs.py",
+    "tcn": "~/graph-neural-inverse-rl/src/xirl/configs/xmagical/pretraining/tcn.py",
+    "goal_classifier": "~/graph-neural-inverse-rl/src/xirl/configs/xmagical/pretraining/classifier.py",
+    "raw_imagenet": "~/graph-neural-inverse-rl/src/xirl/configs/xmagical/pretraining/imagenet.py",
 }
 
 
