@@ -21,8 +21,8 @@ import subprocess
 from absl import app
 from absl import flags
 from absl import logging
-from configs.constants import ALGORITHMS
-from configs.constants import EMBODIMENTS
+from xirl.configs.constants import ALGORITHMS
+from xirl.configs.constants import EMBODIMENTS
 from torchkit.experiment import string_from_kwargs
 from torchkit.experiment import unique_id
 import yaml
