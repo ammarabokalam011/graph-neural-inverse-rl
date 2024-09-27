@@ -45,6 +45,7 @@ flags.DEFINE_enum("algo", None, ALGORITHMS,
 flags.DEFINE_enum("dataset", None, DATASETS, "The pretraining dataset to use.")
 flags.DEFINE_string("device", "cuda:0", "The compute device.")
 flags.DEFINE_string("experiment_name", "exp"+ str(numpy.random.random()), "Exp name.")
+flags.DEFINE_string('resume', None, 'Path to a checkpoint to resume training from.')
 
 formatter = logging.Formatter(
     fmt="[%(levelname)s] [%(asctime)s] [%(module)s.py:%(lineno)s] %(message)s",
