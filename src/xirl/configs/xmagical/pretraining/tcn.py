@@ -15,7 +15,7 @@
 
 """TCN config."""
 
-from base_configs.pretrain import get_config as _get_config
+from xirl.base_configs.pretrain import get_config as _get_config
 
 
 def get_config():
