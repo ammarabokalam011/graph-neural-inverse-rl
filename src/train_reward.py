@@ -1,6 +1,7 @@
 '''
 learn a reward function
 '''
+import numpy.random
 from absl import app
 from absl import flags
 from absl import logging as logger
@@ -43,6 +44,7 @@ flags.DEFINE_enum("algo", None, ALGORITHMS,
                   "The pretraining algorithm to use.")
 flags.DEFINE_enum("dataset", None, DATASETS, "The pretraining dataset to use.")
 flags.DEFINE_string("device", "cuda:0", "The compute device.")
+flags.DEFINE_string("experiment_name", "exp"+numpy.random.random(), "Exp name.")
 
 formatter = logging.Formatter(
     fmt="[%(levelname)s] [%(asctime)s] [%(module)s.py:%(lineno)s] %(message)s",
